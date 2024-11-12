@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="navbar">
+        <h1 class="logo">WORLD MUSIC</h1>
+        <ul class="link-container">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SAERCH</a></li>
+          <li><a href="#">PROFILE</a></li>
+          <li><a href="#">LOGIN / SIHN UP</a></li>
+        </ul>
+      </div>
+      <div class="main-container">
+        <div class="music-nav">
+          <h2>Bibliotik</h2>
+          <ul class="link-list">
+            <li>
+              <img
+                class="icon-image"
+                src="assets/images/icons8-music-library-50.png"
+                alt=""
+              /><a href="#">Play list</a>
+            </li>
+            <li>
+              <img
+                class="icon-image"
+                src="assets/images/icons8-album-50.png"
+                alt=""
+              /><a href="#">Albums</a>
+            </li>
+            <li>
+              <img
+                class="icon-image"
+                src="assets/images/icons8-singer-60.png"
+                alt=""
+              /><a href="#">Singers</a>
+            </li>
+            <li>
+              <img
+                class="icon-image"
+                src="assets/images/icons8-songs-50.png"
+                alt=""
+              /><a href="#">Songs</a>
+            </li>
+          </ul>
+        </div>
+        <div class="songs-container">
+          <h3>Recent</h3>
+          <section id="song-info">
+            <div class="singer-image-container">
+              <button id="prev-btn">
+                <img
+                  class="icon-arrow"
+                  src="assets/images/icons8-arrow-50 (1).png"
+                  alt=""
+                />
+              </button>
+              <img id="singer-image" src="" alt="" />
+              <button id="next-btn">
+                <img
+                  class="icon-arrow"
+                  src="assets/images/icons8-arrow-50.png"
+                  alt=""
+                />
+              </button>
+            </div>
+            <p id="singer-name"></p>
+            <p id="song-name"></p>
+            <p id="Music-genre"></p>
+          </section>
+          <div class="nav-dots" id="nav-dots"></div>
+          <section class="Popular-songs-container">
+            <h3>Popular</h3>
+            <div class="Popular-songs">
+              <div class="f-container">
+                <div>
+                  <figure class="figure">
+                    <img
+                      class="figure-img"
+                      src="assets/images/balckpink2-kpop.jpg"
+                      alt="balckpink"
+                    />
+                    <figcaption>Balckpink - Typa Girl</figcaption>
+                  </figure>
+                </div>
+                <div>
+                  <figure class="figure">
+                    <img
+                      class="figure-img"
+                      src="assets/images/Dua Lipa1-pop.jpg"
+                      alt="Dua Lipa"
+                    />
+                    <figcaption>Dua Lipa - Levitating</figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="f-container">
+                <div>
+                  <figure class="figure">
+                    <img
+                      class="figure-img"
+                      src="assets/images/Foo Fighters1-Rock.jpg"
+                      alt="Foo Fighters"
+                    />
+                    <figcaption>Foo Fighters - walk</figcaption>
+                  </figure>
+                </div>
+                <div>
+                  <figure class="figure">
+                    <img
+                      class="figure-img"
+                      src="assets/images/Nirvana1-Rock.jpg"
+                      alt="Nirvana"
+                    />
+                    <figcaption>Nirvana - Oh Me</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="play-music">
+        <div class="music">
+          <p>i wanna be your slave from Måneskin</p>
+          <audio
+            controls
+            src="assets/audio/maneskin_i_wanna_be_your_slave.mp3"
+          ></audio>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="src/main.js"></script>
+    <script type="module" src="src/getElement.js"></script>
+    <script type="module" src="src/singers.js"></script>
+  </body>
+</html>

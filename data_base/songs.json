@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Ariana Grande",
+        "nameSong": "Love Me Harder",
+        "MusicGenre": "Music Genre : POP",
+        "img": "../assets/images/Ariana Grande2-pop.jpg"
+    },
+    {
+        "id": 2,
+        "name": "EXO",
+        "nameSong": "First Snow",
+        "MusicGenre": "Music Genre : KPOP",
+        "img": "../assets/images/Exo1-kpop.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Måneskin",
+        "nameSong": "I Wanna Be Your Slave",
+        "MusicGenre": "Music Genre : ROCK",
+        "img": "../assets/images/Måneskin1-Rock.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Taylor Swift",
+        "nameSong": "Love Story",
+        "MusicGenre": "Music Genre : POP",
+        "img": "../assets/images/Taylor Swift2-pop.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Nirvana",
+        "nameSong": "Smells Like Teen Spirit",
+        "MusicGenre": "Music Genre : ROCK",
+        "img": "../assets/images/Nirvana2-Rock.jpg"
+    },
+    {
+        "id": 6,
+        "name": "BTS",
+        "nameSong": "Boy With Luv",
+        "MusicGenre": "Music Genre : KPOP",
+        "img": "../assets/images/bts1-kpop.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Rihanna",
+        "nameSong": "Diamonds",
+        "MusicGenre": "Music Genre : POP",
+        "img": "../assets/images/rihanna2-pop.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Stray Kids",
+        "nameSong": "Chk Chk Boom",
+        "MusicGenre": "Music Genre : KPOP",
+        "img": "../assets/images/stray kids2- kpop.jpg"
+    }
+]
